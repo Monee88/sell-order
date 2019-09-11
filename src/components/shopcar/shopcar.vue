@@ -1,5 +1,5 @@
 <template>
-    <div class="shopcar">
+    <div class="shopcart">
       <div class="content" @click="toggleList">
         <div class="left">
           <div class="logo-wrap">
@@ -218,7 +218,7 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../common/stylus/minin.styl"
-.shopcar
+.shopcart
   height: 48px
   width: 100%
   position fixed
